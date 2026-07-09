@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pixel Pizza - Order Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<main class="container">
+    <div class="form-header">
+        <h1>PIXEL PIZZA</h1>
+        <p> Configure your custom loadout.</p>
+    </div>
+    <form class="pizza-form" action="#" method="POST">
+
+        <fieldset>
+            <legend> PLAYER DETAILS</legend>
+            <div class="form-group">
+                <label for="fullName">Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="player1@example.com" required>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>CHOOSE YOUR CRUST</legend>
+        
+        <div class="radio-group">
+          <input type="radio" id="crustThin" name="crust" value="thin" checked>
+          <label for="crustThin">8-Bit Thin & Crispy</label>
+        </div>
+        
+        <div class="radio-group">
+          <input type="radio" id="crustThick" name="crust" value="thick">
+          <label for="crustThick">16-Bit Deep Dish</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>POWER-UP TOPPINGS</legend>
+        
+        <div class="checkbox-group">
+          <input type="checkbox" id="topPep" name="toppings" value="pepperoni">
+          <label for="topPep">Pepperoni</label>
+        </div>
+        
+        <div class="checkbox-group">
+          <input type="checkbox" id="topMush" name="toppings" value="mushrooms">
+          <label for="topMush">1UP Mushrooms</label>
+        </div>
+        
+        <div class="checkbox-group">
+          <input type="checkbox" id="topPine" name="toppings" value="pineapple">
+          <label for="topPine">Pineapple</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>DELIVERY COMMS</legend>
+        
+        <div class="form-group">
+          <label for="deliveryTime">Select Drop Zone Time</label>
+          <select id="deliveryTime" name="deliveryTime">
+            <option value="asap">ASAP (Speedrun)</option>
+            <option value="6pm">18:00 - 19:00</option>
+            <option value="7pm">19:00 - 20:00</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="instructions">Secret Instructions</label>
+          <textarea id="instructions" name="instructions" rows="4" placeholder="Leave at the front door..."></textarea>
+        </div>
+      </fieldset>
+
+      <button type="submit" class="submit-btn">START GAME (PLACE ORDER)</button>
+            </div>
+        </fieldset>
+    </form>
+</main>
+</html>
