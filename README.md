@@ -1,6 +1,6 @@
 # Pixel Pizza - Form Styling Challenge
 
-A custom order form for a fictional retro-arcade pizzeria. This project was built to demonstrate proficiency in styling complex HTML5 form elements while maintaining strict web accessibility standards and a clean user experience.
+A custom order form for a fictional retro-arcade pizzeria. This project was built to demonstrate proficiency in styling complex HTML5 form elements while maintaining strict web accessibility standards and a clean user experience. The live deployment for this page can be found here [https://cryleafing.github.io/Pixel-Pizza/]
 
 ## Pixel Pizza - Form Challenge
 
